@@ -1,0 +1,127 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #E4E4E4;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.star {
+  width: 20px;
+  height: 30px;
+  font-size: 20px;
+  /* background-color: #CCCCCC; */
+}
+.starred {
+  color: #FFA500;
+}
+.unstarred {
+  color: white;
+}
+
+#welcome-wrapper {
+  width: inherit;
+  height: 70px;
+}
+
+#welcome {
+  float: right;
+  color: #333333;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.panel-group .panel-default .panel-heading {
+  background-color: #8FB4B7;
+}
+
+.panel-body {
+background:#FFCCFF;
+}
+
+.accepted {
+	background-color: #DFF0D8;
+}
+.waiting {
+	background-color: #FCF8E3;
+}
+.rejected {
+  background-color: #F2DEDE;
+}
+.grey {
+  background-color: #F0F8FF;
+}
+/*
+.accordion-toggle:after {
+    /* symbol for "opening" panels *
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon *
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css *
+    float: right;        /* adjust as needed *
+    color: grey;         /* adjust as needed *
+}
+.accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels *
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css *
+}
+*/
+
+/* CSS used here will be applied after bootstrap.css */
+#Special { 
+  width: 200px; 
+  float: right;
+}
+
+
+
+
+.checkbox-key, .groupKey {
+  display: none;
+}
+.actions {
+  display: none;
+}
+.sortby {
+  display: none;
+}
+.collapse-expand {
+  display: none;
+}
+.searchbar {
+  display: none;
+}

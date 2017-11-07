@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>CompanyDex Login</title>
+    <base href=""><!-- change url when we have host -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+      body { font-family: Arial;}
+    </style>
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default" style="background-color:#00A8C6">
+			<div class="navbar-header">
+				<div id="logo" class="navbar-brand" style="white-space:nowrap">
+					<div style="display:inline;">
+						<img src="images/logo.PNG" alt="CompanyDex">
+					</div>
+					<div style="display:inline; white-space:nowrap; color:white;">
+						CompanyDex<sup>TM</sup>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+				<div class="row">
+						<div class="col-md-offset-5 col-md-3">
+								<div class="form-login">
+								<h4>Welcome back</h4>
+								<input type="text" id="userName" class="form-control input-sm chat-input" placeholder="username" />
+								<br>
+								<input type="password" id="userPassword" class="form-control input-sm chat-input" placeholder="password" />
+								<br>
+								<div class="wrapper">
+								<span class="group-btn">     
+										<div class="btn btn-primary btn-md" onclick="loginUser()">login</div>
+                    <div class="btn btn-primary btn-md" onclick="createUser()">sign up</div>
+								</span>
+								</div>
+								<br>
+								<img src="images/btn_google.png" alt="Sign in With Google" onclick="googleLogin()">
+								</div>
+						
+						</div>
+				</div>
+		</div>
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+  <script src="js/index.js"></script>
+</html>
+
